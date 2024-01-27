@@ -5,7 +5,7 @@ basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     huskylens.request()
     if (huskylens.isAppear_s(HUSKYLENSResultType_t.HUSKYLENSResultBlock)) {
-        if (huskylens.isAppear(0, HUSKYLENSResultType_t.HUSKYLENSResultBlock)) {
+        if (huskylens.isAppear(1, HUSKYLENSResultType_t.HUSKYLENSResultBlock)) {
             basic.showIcon(IconNames.Happy)
             music.ringTone(659)
             pins.digitalWritePin(DigitalPin.P1, 1)
