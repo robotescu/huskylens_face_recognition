@@ -9,14 +9,14 @@ basic.forever(function () {
             basic.showIcon(IconNames.Happy)
             music.ringTone(659)
             pins.digitalWritePin(DigitalPin.P1, 1)
-            basic.pause(2000)
+            basic.pause(1000)
             pins.digitalWritePin(DigitalPin.P1, 0)
             music.stopAllSounds()
         } else {
             basic.showIcon(IconNames.Sad)
             music.ringTone(165)
             pins.digitalWritePin(DigitalPin.P2, 1)
-            basic.pause(2000)
+            basic.pause(1000)
             pins.digitalWritePin(DigitalPin.P2, 0)
             music.stopAllSounds()
         }
